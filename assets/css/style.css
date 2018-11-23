@@ -579,11 +579,13 @@ SOCIAL ICON
 	line-height: 60px;
 	font-size: 30px;
 	border: 1px solid #fff;
+	border-radius: 10px;
 }
 .video-intro a:hover {
 	/*color: #68c3a3;*/
 	color: #36dd84;
-	background-color: #fff;
+	/*background-color: #fff;*/
+	background-color: #000;
 	border: 1px solid transparent;
 }
 .video-intro h2 {
@@ -622,7 +624,8 @@ Resume Timeline
 	top: -8px;
 	width: 10px;
 	height: 10px;
-	background-color: #e1e1e1;
+	/*background-color: #e1e1e1;*/
+	background-color: #36dd84;
 	left: 50%;
 	margin-left: -6px;
 	-webkit-transform: rotate(45deg);
@@ -637,7 +640,8 @@ Resume Timeline
 	bottom: -8px;
 	width: 10px;
 	height: 10px;
-	background-color: #e1e1e1;
+	/*background-color: #e1e1e1;*/
+	background-color: #36dd84;
 	left: 50%;
 	margin-left: -6px;
 	-webkit-transform: rotate(45deg);
@@ -653,7 +657,8 @@ Resume Timeline
 	bottom: 0;
 	width: 2px;
 	margin-left: -1.5px;
-	background-color: #e1e1e1;
+	/*background-color: #e1e1e1;*/
+	background-color: #36dd84;
 }
 .timeline>li {
 	position: relative;
@@ -772,7 +777,7 @@ Resume Timeline
 	.timeline>li .timeline-content:hover {
 		/*background: #68c3a3;*/
 		background: #36dd84;
-		color: #fff;
+		/*color: #fff;*/
 	}
 	.timeline>li .timeline-panel::before, .timeline>li.timeline-inverted .timeline-panel::before {
 		content: "";
@@ -858,20 +863,23 @@ Resume Timeline
 }
 .skills-section .section-title {
 	color: #fff;
-	margin-bottom: 110px;
+	/*margin-bottom: 110px;*/
+	margin-bottom: 90px;
 }
 .skills-section .section-title h2 {
 	color: #fff;
 }
 .skill-title {
-	width: 25%;
+	/*width: 25%;*/
+	width: 35%;
 	float: left;
 }
 .skill-title h3 {
 	font-size: 18px;
 	font-weight: 400;
 	margin-top: -6px;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
+	text-transform: none;
 }
 /* progress-bar */
 
@@ -884,7 +892,8 @@ Resume Timeline
 	background-color: #3a4149;
 	border-radius: 3px;
 	box-shadow: none;
-	width: 75%;
+	/*width: 75%;*/
+	width: 100%;
 }
 .progress-bar {
 	/*background-color: #68c3a3;*/
@@ -892,8 +901,10 @@ Resume Timeline
 }
 .progress-bar span {
 	position: absolute;
-	top: -20px;
-	right: 15px;
+	/*top: -20px;*/
+	/*right: 15px;*/
+	top: -5px;
+	right: 10px;
 }
 .progress .progress-bar.six-sec-ease-in-out {
 	-webkit-transition: width 2s ease-in-out;
@@ -922,13 +933,17 @@ Resume Timeline
 	display: inline-block;
 	width: 140px;
 	height: 140px;
-	margin: 40px auto;
+	/*margin: 40px auto;*/
 	text-align: center;
+	margin-bottom: 80px;
 }
 .chart canvas {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+.skill-chart {
+	margin-bottom: 50px;
 }
 .percent {
 	display: inline-block;
@@ -989,12 +1004,14 @@ Resume Timeline
 }
 #filter li a {
 	/*color: #68c3a3;*/
-	color: #36dd84;
+	/*color: #36dd84;*/
+	color: #000000;
 	display: block;
 	text-transform: uppercase;
 	padding: 0 15px;
 	border-radius: 4px;
 	transition: inherit;
+	font-weight: 500;
 }
 #filter li a.active, #filter li a:hover {
 	position: relative;
@@ -1017,7 +1034,8 @@ Resume Timeline
 }
 .tt-overlay {
 	position: absolute;
-	background-color: rgba(26, 30, 31, 0.85);
+	/*background-color: rgba(26, 30, 31, 0.85);*/
+	background-color: rgba(26, 30, 31, 0.6);
 	width: 100%;
 	height: 100%;
 	opacity: 0;
@@ -1029,13 +1047,15 @@ Resume Timeline
 	transition: all 400ms;
 }
 .links {
-	width: 90px;
+	width: 40px;
 	height: 40px;
 	position: absolute;
 	top: 40%;
 	left: 50%;
-	margin-top: -20px;
-	margin-left: -45px;
+	/*margin-top: -20px;
+	margin-left: -45px;*/
+	margin-top: -10px;
+	margin-left: -20px;
 	opacity: 0;
 	-webkit-transform: translate(0, -50px);
 	-moz-transform: translate(0, -50px);
@@ -1081,8 +1101,9 @@ Resume Timeline
 	left: 0;
 	/*background-color: #68c3a3;*/
 	background-color: #36dd84;
-	color: #fff;
-	height: 45px;
+	/*color: #fff;*/
+	/*height: 45px;*/
+	height: 35px;
 	width: 100%;
 	text-align: center;
 }
@@ -1098,8 +1119,9 @@ Resume Timeline
 	bottom: 0;
 }
 .portfolio-info h3 {
-	font-size: 14px;
-	line-height: 45px;
+	font-size: 13px;
+	/*line-height: 45px;*/
+	line-height: 35px;
 	font-weight: 700;
 	margin: 0;
 }
@@ -1307,7 +1329,8 @@ Icon for all respective meta
 	text-transform: uppercase;
 }
 .contact-form strong {
-	margin-bottom: 40px;
+	/*margin-bottom: 40px;*/
+	margin-bottom: 20px;
 }
 .contact-form textarea.form-control {
 	height: 115px;
@@ -1322,9 +1345,10 @@ Icon for all respective meta
 }
 .contact-section address, .contact-section .contact-number {
 	overflow: hidden;
-	line-height: 30px;
+	/*line-height: 30px;*/
 	font-weight: 400;
-	margin-bottom: 45px
+	/*margin-bottom: 45px;*/
+	margin-bottom: 25px;
 }
 /*MAP*/
 
