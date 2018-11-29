@@ -1047,15 +1047,16 @@ Resume Timeline
 	transition: all 400ms;
 }
 .links {
-	width: 40px;
+	/*width: 40px;*/
+	width: 90px;
 	height: 40px;
 	position: absolute;
 	top: 40%;
 	left: 50%;
-	/*margin-top: -20px;
-	margin-left: -45px;*/
+	/*margin-top: -20px;*/
+	margin-left: -45px;
 	margin-top: -10px;
-	margin-left: -20px;
+	/*margin-left: -20px;*/
 	opacity: 0;
 	-webkit-transform: translate(0, -50px);
 	-moz-transform: translate(0, -50px);
