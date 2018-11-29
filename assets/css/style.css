@@ -1299,21 +1299,23 @@ Icon for all respective meta
 /* === Hire Section === */
 
 .hire-section {
-	background: url(../../assets/images/hire-bg.jpg) no-repeat top center #36dd84;
+	background: url(../images/video-bg.jpg) no-repeat top center;
 	background-attachment: fixed;
 	background-size: cover;
-	color: #fff;
+	position: relative;
+	min-height: 400px;
 }
 .hire-section-bg {
-	padding: 110px 0;
-	background: -webkit-linear-gradient(bottom, #36dd84, rgba(54, 221, 132, 0.6));
+	/*padding: 110px 0;*/
+	/*background: -webkit-linear-gradient(bottom, #36dd84, rgba(54, 221, 132, 0.6));*/
 	/*Safari 5.1-6*/
-	background: -o-linear-gradient(top, #36dd84, rgba(54, 221, 132, 0.6));
+	/*background: -o-linear-gradient(top, #36dd84, rgba(54, 221, 132, 0.6));*/
 	/*Opera 11.1-12*/
-	background: -moz-linear-gradient(top, #36dd84, rgba(54, 221, 132, 0.6));
+	/*background: -moz-linear-gradient(top, #36dd84, rgba(54, 221, 132, 0.6));*/
 	/*Fx 3.6-15*/
-	background: linear-gradient(to top, #36dd84, rgba(54, 221, 132, 0.6));
+	/*background: linear-gradient(to top, #36dd84, rgba(54, 221, 132, 0.6));*/
 	/*Standard*/
+	/*min-height: 500px;*/
 }
 .hire-section h2 {
 	font-size: 36px;
@@ -1321,6 +1323,18 @@ Icon for all respective meta
 }
 .hire-section .btn {
 	padding: 9px 54px;
+}
+.contrato-seccion {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	padding: 0 20px;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 /* === Contact Section === */
 
