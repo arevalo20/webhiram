@@ -1,6 +1,22 @@
 /* Extra small devices (phones, less than 768px) */
 
 @media (max-width: 766px) {
+	.chart {
+    width: 340px;
+    height: 340px;
+  }
+	.chart canvas{
+		height: 345px !important;
+		width: 345px !important;
+	}
+	.percent{
+		line-height: 20px;
+		font-size: 70px;
+		margin-top: 150px;
+	}
+	.chart-text span{
+		font-size: 30px;
+	}
 	.intro h1 {
 		font-size: 40px;
 		line-height: 40px;
