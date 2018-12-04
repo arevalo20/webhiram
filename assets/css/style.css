@@ -45,7 +45,6 @@ body, html {
 ---------------------------------------------------------*/
 
 a {
-	/*color: #68c3a3;*/
 	color: #36dd84;
 }
 a, a>* {
@@ -139,7 +138,6 @@ h6 {
 	box-shadow: none;
 }
 .form-control:focus {
-	/*border-color: #68c3a3;*/
 	border-color: #36dd84;
 	box-shadow: none;
 }
@@ -183,7 +181,6 @@ h6 {
 /*btn-primary*/
 
 .btn-primary {
-	/*background-color: #68c3a3;*/
 	background-color: #36dd84;
 	border-color: rgba(51, 51, 51, 0.15);
 }
@@ -211,7 +208,6 @@ h6 {
 	color: #fff;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	/*color: #68c3a3;*/
 	color: #36dd84;
 	background-color: #fff;
 	border-color: #fff;
@@ -323,7 +319,6 @@ ul.list-check li::before {
 	color: #52b3d9;
 }
 .intro h1 span {
-	/*color: #68c3a3;*/
 	color: #36dd84;
 }
 .intro p {
@@ -425,7 +420,6 @@ SOCIAL ICON
 	visibility: hidden;
 	opacity: 0;
 	border: 1px solid #ddd;
-	/*border-top: 2px solid #68c3a3;*/
 	border-top: 2px solid #36dd84;
 	border-radius: 0;
 	border-bottom: 3px double #ddd;
@@ -461,7 +455,6 @@ SOCIAL ICON
 }
 .navbar-custom .dropdown-menu>li>a {
 	padding: 10px 20px;
-	/*color: #282828;*/
 	color: #36dd84;
 	font-size: 14px;
 	font-weight: 700;
@@ -469,7 +462,6 @@ SOCIAL ICON
 .navbar-custom .nav li.active, .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .navbar-nav>li.active>a {
 	background: none;
 	outline: 0;
-	/*color: #68c3a3;*/
 	color: #36dd84;
 }
 .navbar-custom .navbar-brand {
@@ -579,9 +571,7 @@ SOCIAL ICON
 	border-radius: 10px;
 }
 .video-intro a:hover {
-	/*color: #68c3a3;*/
 	color: #36dd84;
-	/*background-color: #fff;*/
 	background-color: #000;
 	border: 1px solid transparent;
 }
@@ -621,7 +611,6 @@ Resume Timeline
 	top: -8px;
 	width: 10px;
 	height: 10px;
-	/*background-color: #e1e1e1;*/
 	background-color: #36dd84;
 	left: 50%;
 	margin-left: -6px;
@@ -637,7 +626,6 @@ Resume Timeline
 	bottom: -8px;
 	width: 10px;
 	height: 10px;
-	/*background-color: #e1e1e1;*/
 	background-color: #36dd84;
 	left: 50%;
 	margin-left: -6px;
@@ -654,7 +642,6 @@ Resume Timeline
 	bottom: 0;
 	width: 2px;
 	margin-left: -1.5px;
-	/*background-color: #e1e1e1;*/
 	background-color: #36dd84;
 }
 .timeline>li {
@@ -775,9 +762,7 @@ Resume Timeline
 		z-index: -1;
 	}
 	.timeline>li .timeline-content:hover {
-		/*background: #68c3a3;*/
 		background: #36dd84;
-		/*color: #fff;*/
 	}
 	.timeline>li .timeline-panel::before, .timeline>li.timeline-inverted .timeline-panel::before {
 		content: "";
@@ -795,7 +780,6 @@ Resume Timeline
 		transition: all 400ms;
 	}
 	.timeline>li .timeline-panel:hover::before {
-		/*border-left: 12px solid #68c3a3;*/
 		border-left: 12px solid #36dd84;
 	}
 	.timeline>li.timeline-inverted .timeline-panel::before {
@@ -807,7 +791,6 @@ Resume Timeline
 		transition: all 400ms;
 	}
 	.timeline>li.timeline-inverted .timeline-panel:hover::before {
-		/*border-right: 12px solid #68c3a3;*/
 		border-right: 12px solid #36dd84;
 		border-left: 0;
 	}
@@ -828,7 +811,6 @@ Resume Timeline
 		transition: all 400ms;
 	}
 	.timeline>li .timeline-panel:hover::after {
-		/*border-left: 12px solid #68c3a3;*/
 		border-left: 12px solid #36dd84;
 	}
 	.timeline>li.timeline-inverted .timeline-panel::after {
@@ -841,7 +823,6 @@ Resume Timeline
 		transition: all 400ms;
 	}
 	.timeline>li.timeline-inverted .timeline-panel:hover::after {
-		/*border-right: 12px solid #68c3a3;*/
 		border-right: 12px solid #36dd84;
 		border-left: 0;
 	}
@@ -870,7 +851,6 @@ Resume Timeline
 	color: #fff;
 }
 .skill-title {
-	/*width: 25%;*/
 	width: 35%;
 	float: left;
 }
@@ -896,13 +876,10 @@ Resume Timeline
 	width: 100%;
 }
 .progress-bar {
-	/*background-color: #68c3a3;*/
 	background-color: #36dd84;
 }
 .progress-bar span {
 	position: absolute;
-	/*top: -20px;*/
-	/*right: 15px;*/
 	top: -5px;
 	right: 10px;
 }
@@ -933,7 +910,6 @@ Resume Timeline
 	display: inline-block;
 	width: 140px;
 	height: 140px;
-	/*margin: 40px auto;*/
 	text-align: center;
 	margin-bottom: 80px;
 }
@@ -1003,8 +979,6 @@ Resume Timeline
 	text-align: center;
 }
 #filter li a {
-	/*color: #68c3a3;*/
-	/*color: #36dd84;*/
 	color: #000000;
 	display: block;
 	text-transform: uppercase;
@@ -1015,7 +989,6 @@ Resume Timeline
 }
 #filter li a.active, #filter li a:hover {
 	position: relative;
-	/*background: #68c3a3;*/
 	background: #36dd84;
 	color: #fff;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.15);
@@ -1034,7 +1007,6 @@ Resume Timeline
 }
 .tt-overlay {
 	position: absolute;
-	/*background-color: rgba(26, 30, 31, 0.85);*/
 	background-color: rgba(26, 30, 31, 0.6);
 	width: 100%;
 	height: 100%;
@@ -1066,7 +1038,6 @@ Resume Timeline
 }
 .links a i {
 	position: relative;
-	/*color: #68c3a3;*/
 	color: #36dd84;
 	font-size: 16px;
 	margin: 0 13px;
@@ -1082,7 +1053,6 @@ Resume Timeline
 	top: -7px;
 	width: 30px;
 	height: 30px;
-	/*border: 1px solid #68c3a3;*/
 	border: 1px solid #36dd84;
 	z-index: -1;
 	border-radius: 3px;
@@ -1093,18 +1063,14 @@ Resume Timeline
 	transform: rotate(45deg);
 }
 .links a:hover i::after {
-	/*background-color: #68c3a3;*/
 	background-color: #36dd84;
 }
 .portfolio-info {
 	position: absolute;
 	bottom: -100%;
 	left: 0;
-	/*background-color: #68c3a3;*/
 	background-color: #36dd84;
-	/*color: #fff;*/
-	/*height: 45px;*/
-	height: 35px;
+		height: 35px;
 	width: 100%;
 	text-align: center;
 }
@@ -1121,7 +1087,6 @@ Resume Timeline
 }
 .portfolio-info h3 {
 	font-size: 13px;
-	/*line-height: 45px;*/
 	line-height: 35px;
 	font-weight: 700;
 	margin: 0;
@@ -1198,7 +1163,6 @@ Resume Timeline
 	top: -10px;
 	width: 40px;
 	height: 40px;
-	/*background-color: #68c3a3;*/
 	background-color: #36dd84;
 	z-index: -1;
 	border-radius: 3px;
@@ -1247,7 +1211,6 @@ Resume Timeline
 	color: #282828;
 }
 .entry-title a:hover {
-	/*color: #68c3a3;*/
 	color: #36dd84;
 }
 .entry-meta {
@@ -1265,7 +1228,6 @@ Resume Timeline
 	font-weight: 400;
 }
 .entry-meta ul li a:hover {
-	/*color: #68c3a3;*/
 	color: #36dd84;
 }
 .blog-more {
@@ -1360,9 +1322,7 @@ Icon for all respective meta
 }
 .contact-section address, .contact-section .contact-number {
 	overflow: hidden;
-	/*line-height: 30px;*/
 	font-weight: 400;
-	/*margin-bottom: 45px;*/
 	margin-bottom: 25px;
 }
 /*MAP*/
@@ -1397,7 +1357,6 @@ Icon for all respective meta
 	right: 1.8em;
 }
 .scroll-up a {
-	/*background-color: #68c3a3;*/
 	background-color: #36dd84;
 	display: block;
 	width: 28px;
@@ -1652,7 +1611,6 @@ Icon for all respective meta
 	margin-bottom: 16px;
 }
 .personal-info h1 span {
-	/*color: #68c3a3;*/
 	color: #36dd84;
 }
 .personal-info p {
